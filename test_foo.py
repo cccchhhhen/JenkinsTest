@@ -4,7 +4,7 @@ import foo
 class SimpleTest(unittest.TestCase):
     """测试做除法的函数"""
     def test1(self):
-        self.assertEqual(foo.divide(20, 2), 10)
+        self.assertEqual(foo.divide(16, 2), 8)
 
     def test2(self):
         self.assertEqual(foo.divide(0, 1), 0)
